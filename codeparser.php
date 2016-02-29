@@ -6,7 +6,6 @@ if (strtoupper($code) == "BTC NOW") {
   $response = file_get_contents($request);
   $decode = json_decode($response, true);
 
-  $price = $decode['USD'][]
   echo "<html><head><title>BTC NOW</title></head><body>";
   echo "<h1>" . $code . "</h1></br>";
   echo "<h2>Bid: " . $decode['USD']['buy'] . "</h2></br>";
