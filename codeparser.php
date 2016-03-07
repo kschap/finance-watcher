@@ -1,7 +1,7 @@
 <?php
 $code = $_POST['code'];
 
-if (strtoupper($code) == "BTC NOW")
+if (strtoupper($code) == "BTCNOW")
 {
   include 'btcnow.php';
 }
