@@ -1,12 +1,12 @@
 <?php
 $code = $_GET['code'];
 
-if (strcmp($code, "BTCNOW"))
+if (strcmp(strtoupper($code), "BTCNOW"))
 {
   include 'btcnow.php';
 }
 
-if (strcmp($code, "STOCK"))
+if (strcmp(strtoupper($code), "STOCK"))
 {
   include 'stockParser.php';
 }
