@@ -1,5 +1,5 @@
 <?php
-$code = $_POST['code'];
+$code = $_GET['code'];
 
 if (strtoupper($code) == "BTCNOW")
 {
