@@ -15,11 +15,11 @@ echo
     <table style=\"width:100%\">
       <tr>
         <td>Bid</td>
-        <td>$bid</td>
+        <td> . $bid . </td>
       </tr>
       <tr>
         <td>Ask</td>
-        <td>$ask</td>
+        <td> . $ask . </td>
       </tr>
   </body>
   ";
