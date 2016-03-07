@@ -3,7 +3,7 @@ $request = 'https://blockchain.info/ticker'; // Contins JSON file for BTC price 
 $response = file_get_contents($request);
 $decode = json_decode($response, true);
 $bid = $decode['USD']['buy'];
-$ask $decode['USD']['sell'];
+$ask = $decode['USD']['sell'];
 echo
 "<html>
   <head>
